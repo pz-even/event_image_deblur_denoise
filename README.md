@@ -31,7 +31,7 @@ Before start, take a look at the uploaded good and failed samples in the `data` 
 ### Run
 Run `demo.m` with the following configurations:
 ```
-configs.dir:              your dir name
+configs.dir:              dir name
 configs.data:             folder to store input data
 configs.results:          folder to store output results
 configs.blur:             input image file
@@ -51,7 +51,7 @@ For convenience, we split our algorithm into 3 functions, controlled by `configs
 2. `configs.case = 1` for image deblurring only (if you have a blurry image and clean events). These configurations are disabled (any value): `configs.weight`, `configs.N`, `configs.dx`, `configs.dt`.
 3. `configs.case = 2` for event denoising only (if you have a sharp image and noisy events). These configurations are disabled (any value): `configs.alpha`, `configs.beta`, `configs.sigma`.
 
-### Results
+### Result
 These files will be generated in the folder set by `configs.results` in `demo.m` (default: `results`):
 1. `xxx_configs.mat` for the configurations used.
 2. `xxx_sharp.png` for a restored sharp image (only for `configs.case = -1` and `configs.case = 1`).
@@ -60,4 +60,4 @@ These files will be generated in the folder set by `configs.results` in `demo.m`
 
 ## Dataset
 ![DATA](./imgs/data.png)
-Our real-world dataset has multiple pairs of blurry images and noisy event streams, recorded by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://bora.teracloud.jp/share/12224f5298482b21).
+Real-world pairs of blurry images and noisy event streams, captured by a DAVIS346 camera on a rich range of scenarios. Download it from [here](https://bora.teracloud.jp/share/12224f5298482b21).
