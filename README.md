@@ -53,9 +53,9 @@ For convenience, we split our algorithm into 3 functions, controlled by `configs
 
 ### Result
 These files will be generated in the folder set by `configs.results` in `demo.m` (default: `results`):
-1. `xxx_configs.mat` for the configurations used.
+1. `xxx_configs.mat` for configurations used.
 2. `xxx_sharp.png` for a restored sharp image (only for `configs.case = -1` and `configs.case = 1`).
-3. `xxx_kernel.png` for a estimated blur kernel (only for `configs.case = -1` and `configs.case = 1`).
+3. `xxx_kernel.png` for an estimated blur kernel (only for `configs.case = -1` and `configs.case = 1`).
 4. `xxx_signals.mat` for denoised events (only for `configs.case = -1` and `configs.case = 2`).
 
 ## Dataset
