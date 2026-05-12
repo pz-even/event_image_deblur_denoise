@@ -23,7 +23,7 @@
 ![DEMO](./imgs/demo2.png)
 
 ## Implementation
-Before start, please glance over the (good and failed) samples we upload in the folders `data` and `results`.
+Before start, please take a quick look at the uploaded good and failed samples in the `data` and `results` folders.
 ### Preparation
 1. Put your image file and its corresponding event data in the folder you specify by `configs.data` in `demo.m` (default: `data`).
 2. The event data must be in `.mat` and with `t, x, y, p` entries.
