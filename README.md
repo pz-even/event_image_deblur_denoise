@@ -25,7 +25,7 @@
 ## Implementation
 Before start, please take a quick look at the uploaded good and failed samples in the `data` and `results` folders.
 ### Preparation
-1. Put your image file and its corresponding event data in the folder you specify by `configs.data` in `demo.m` (default: `data`).
+1. Put your image file and its corresponding event data in the folder specified by `configs.data` in `demo.m` (default: `data`).
 2. The event data must be in `.mat` and with `t, x, y, p` entries.
 
 ### Run
@@ -52,7 +52,7 @@ For convenience, we split our algorithm into 3 functions, which are controlled b
 3. `configs.case = 2` for event denoising only (if you have a sharp image and noisy events). The following configurations are disabled (any value): `configs.alpha`, `configs.beta`, `configs.sigma`.
 
 ### Results
-The following files will be generated in the folder you specify by `configs.results` in `demo.m` (default: `results`):
+The following files will be generated in the folder specified by `configs.results` in `demo.m` (default: `results`):
 1. `xxx_configs.mat` for the configurations used.
 2. `xxx_sharp.png` for a restored sharp image (only for `configs.case = -1` and `configs.case = 1`).
 3. `xxx_kernel.png` for a estimated blur kernel (only for `configs.case = -1` and `configs.case = 1`).
