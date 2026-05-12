@@ -42,8 +42,8 @@ configs.beta:             weight of the l_0 regularizer
 configs.sigma:            weight of the Gaussian regularizer
 configs.weight:           weight of gradient supervision
 configs.N:                find neighbors (1) or not (0)
-configs.dx:               spatial threshold to set a square boundary of the neighbors
-configs.dt:               temporal threshold to set a boundary of the neighbors
+configs.dx:               spatial threshold to set a square neighborhood boundary
+configs.dt:               temporal threshold to set a neighborhood boundary
 configs.case:             set a use case (-1, 1, 2)
 ```
 For convenience, we split our algorithm into 3 functions, controlled by `configs.case`:
