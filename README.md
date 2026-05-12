@@ -6,6 +6,7 @@
 [![Dataset](https://img.shields.io/badge/Dataset-Available-00b894)](https://bora.teracloud.jp/share/12224f5298482b21)
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2021a-e16737)
 ![License](https://img.shields.io/badge/License-MIT-green)
+[![News](https://img.shields.io/badge/News-计思光益-07C160)](https://bora.teracloud.jp/share/12224f5298482b21)
 
 ```
 @article{zhang2024tip,
