@@ -52,11 +52,11 @@ For convenience, we split our algorithm into 3 functions, which are controlled b
 3. `configs.case = 2` for event denoising only (if you have a sharp image and noisy events). The following configurations are disabled (any value): `configs.alpha`, `configs.beta`, `configs.sigma`.
 
 ### Results
-Once done, up to 4 files are generated in the folder you specify by `configs.results` in `demo.m` (default: `results`):
-1. `xxx_configs.mat`:      record the configurations used
-2. `xxx_sharp.png`:        restored sharp image (only for `configs.case = -1` and `configs.case = 1`)
-3. `xxx_kernel.png`:       estimated blur kernel (only for `configs.case = -1` and `configs.case = 1`)
-4. `xxx_signals.mat`:      denoised events (only for `configs.case = -1` and `configs.case = 2`)
+The following files will be generated in the folder you specify by `configs.results` in `demo.m` (default: `results`):
+1. `xxx_configs.mat` for the configurations used.
+2. `xxx_sharp.png` for a restored sharp image (only for `configs.case = -1` and `configs.case = 1`).
+3. `xxx_kernel.png` for a estimated blur kernel (only for `configs.case = -1` and `configs.case = 1`).
+4. `xxx_signals.mat` for denoised events (only for `configs.case = -1` and `configs.case = 2`).
 
 ## Dataset
 ![DATA](./imgs/data.png)
