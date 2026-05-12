@@ -23,9 +23,9 @@
 ![DEMO](./imgs/demo2.png)
 
 ## Implementation
-Before start, please take a quick look at the uploaded good and failed samples in the `data` and `results` folders.
+Before start, take a look at the uploaded good and failed samples in the `data` and `results` folders.
 ### Preparation
-1. Put your image file and its corresponding event data in the folder specified by `configs.data` in `demo.m` (default: `data`).
+1. Put your image file and its event data in the folder set by `configs.data` in `demo.m` (default: `data`).
 2. The event data must be in `.mat` and with `t, x, y, p` entries.
 
 ### Run
@@ -42,17 +42,17 @@ configs.beta:             weight of the l_0 regularizer
 configs.sigma:            weight of the Gaussian regularizer
 configs.weight:           weight of gradient supervision
 configs.N:                find neighbors (1) or not (0)
-configs.dx:               spatial threshold to specify a square boundary of the neighbors
-configs.dt:               temporal threshold to specify a boundary of the neighbors
-configs.case:             specify a use case (-1, 1, 2)
+configs.dx:               spatial threshold to set a square boundary of the neighbors
+configs.dt:               temporal threshold to set a boundary of the neighbors
+configs.case:             set a use case (-1, 1, 2)
 ```
-For convenience, we split our algorithm into 3 functions, which are controlled by `configs.case`:
-1. `configs.case = -1` for experiencing joint image deblurring and event denoising.
-2. `configs.case = 1` for image deblurring only (if you have a blurry image and clean events). The following configurations are disabled (any value): `configs.weight`, `configs.N`, `configs.dx`, `configs.dt`.
-3. `configs.case = 2` for event denoising only (if you have a sharp image and noisy events). The following configurations are disabled (any value): `configs.alpha`, `configs.beta`, `configs.sigma`.
+For convenience, we split our algorithm into 3 functions, controlled by `configs.case`:
+1. `configs.case = -1` for joint image deblurring and event denoising.
+2. `configs.case = 1` for image deblurring only (if you have a blurry image and clean events). These configurations are disabled (any value): `configs.weight`, `configs.N`, `configs.dx`, `configs.dt`.
+3. `configs.case = 2` for event denoising only (if you have a sharp image and noisy events). These configurations are disabled (any value): `configs.alpha`, `configs.beta`, `configs.sigma`.
 
 ### Results
-The following files will be generated in the folder specified by `configs.results` in `demo.m` (default: `results`):
+These files will be generated in the folder set by `configs.results` in `demo.m` (default: `results`):
 1. `xxx_configs.mat` for the configurations used.
 2. `xxx_sharp.png` for a restored sharp image (only for `configs.case = -1` and `configs.case = 1`).
 3. `xxx_kernel.png` for a estimated blur kernel (only for `configs.case = -1` and `configs.case = 1`).
