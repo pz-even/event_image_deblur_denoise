@@ -15,7 +15,7 @@
   journal = {IEEE Transactions on Image Processing},
   volume  = {33}, pages = {2318--2333},
   year    = {2024}, month = {March},
-  doi     = {10.1109/TIP.2024.3374074},
+  doi     = {10.1109/TIP.2024.3374074}
 }
 ```
 ![DEMO](./imgs/demo.png)
