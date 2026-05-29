@@ -14,7 +14,7 @@
   author  = {Pei Zhang and Haosen Liu and Zhou Ge and Chutian Wang and Edmund Y. Lam},
   journal = {IEEE Transactions on Image Processing},
   volume  = {33}, pages = {2318--2333},
-  year    = {2024}, month = {March},
+  year    = {2024}
   doi     = {10.1109/TIP.2024.3374074}
 }
 ```
