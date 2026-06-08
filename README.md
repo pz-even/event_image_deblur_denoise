@@ -1,8 +1,8 @@
 # Neuromorphic Imaging with Joint Image Deblurring and Event Denoising</h1>
 
 [![doi](https://img.shields.io/badge/Journal-IEEE_TIP-blue)](https://doi.org/10.1109/TIP.2024.3374074)
-[![arXiv](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2309.16106)
-[![HKU](https://img.shields.io/badge/HKU-PDF-b31b1b)](https://www.eee.hku.hk/optima/pub/journal/2403_ITIP.pdf)
+[![arXiv](https://img.shields.io/badge/PDF-arXiv-b31b1b)](https://arxiv.org/abs/2309.16106)
+[![HKU](https://img.shields.io/badge/PDF-HKU-b31b1b)](https://www.eee.hku.hk/optima/pub/journal/2403_ITIP.pdf)
 [![Dataset](https://img.shields.io/badge/Dataset-Available-00b894)](https://bora.teracloud.jp/share/12224f5298482b21)
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2021a-e16737)
 ![License](https://img.shields.io/badge/License-MIT-green)
